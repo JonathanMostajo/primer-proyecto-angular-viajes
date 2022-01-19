@@ -1,0 +1,7 @@
+<nav>
+  <img src="{{ image.src }}" alt="{{ image.alt }}"/>
+  <ng-container *ngFor="let item of navbar">
+    <app-navbar [navbar]="item"></app-navbar>
+  </ng-container>
+
+</nav>

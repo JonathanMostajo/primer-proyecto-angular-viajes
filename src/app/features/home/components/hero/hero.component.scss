@@ -1,0 +1,33 @@
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #b8c1ec;
+
+    .hero-image-container {
+        max-width: 500px;
+        img {
+            border: 2px solid #121629;
+            width: 100%;
+        }
+        margin: 10px;
+      }
+    .hero-description-container{
+        max-width: 40%;
+        p{
+            padding: 30px;
+            text-align: justify;
+            word-break: keep-all;
+        }
+    }
+    /* img {
+        width: 600px;
+    }
+    p{
+        padding: 30px;
+        text-align: justify;
+        word-break: keep-all;
+    } */
+}
